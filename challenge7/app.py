@@ -37,7 +37,7 @@ class Category(db.Model):
         self.name=name
 
 
-def insert_datas():
+def insert_data():
     db.create_all()
     java=Category('Java')
     python=Category('Python')
